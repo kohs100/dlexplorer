@@ -93,5 +93,5 @@ def index_dlsite(path):
 if __name__ == '__main__':
     DBLoad()
     chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
-    webbrowser.get(chrome_path).open('http://localhost:5000/dlsite')
+    webbrowser.get(chrome_path).open('http://localhost:5000/dlsite/index.html')
     app.run()
